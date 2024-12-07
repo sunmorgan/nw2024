@@ -36,6 +36,34 @@ const Portfolio = () => {
         </div>
       </div>
 
+      {/* Projects Section */}
+      <div className="space-y-6">
+        <h2 className="text-2xl font-bold">Stuff I have been working on...</h2>
+        <div className="space-y-6">
+          <div className="bg-gray-50 p-6 rounded-lg space-y-4">
+            <h3 className="text-xl font-semibold">Odu</h3>
+            <p className="text-gray-600">Improving physician's lives by automating OHIP billing with RAG.</p>
+            <a href="https://tryodu.com" className="text-blue-600 hover:underline inline-flex items-center">
+              View <ExternalLink className="ml-1 w-4 h-4" />
+            </a>
+          </div>
+          {/* <div className="bg-gray-50 p-6 rounded-lg space-y-4">
+            <h3 className="text-xl font-semibold">Project 2</h3>
+            <p className="text-gray-600">Description of your second project. Mention what problem it solves or its main purpose.</p>
+            <a href="#" className="text-blue-600 hover:underline inline-flex items-center">
+              View Project <ExternalLink className="ml-1 w-4 h-4" />
+            </a>
+          </div>
+          <div className="bg-gray-50 p-6 rounded-lg space-y-4">
+            <h3 className="text-xl font-semibold">Project 3</h3>
+            <p className="text-gray-600">Details about your third project. You could mention the tech stack or any unique challenges.</p>
+            <a href="#" className="text-blue-600 hover:underline inline-flex items-center">
+              View Project <ExternalLink className="ml-1 w-4 h-4" />
+            </a>
+          </div> */}
+        </div>
+      </div>
+      
       {/* Social Links */}
       <div className="flex justify-center space-x-6">
         <a
