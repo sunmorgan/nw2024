@@ -76,7 +76,7 @@ const Portfolio = () => {
           <span className="sr-only">LinkedIn</span>
         </a>
         <a
-          href="https://drive.google.com/file/d/1_lhft_qdJQjyzbU5XJO22BMLHalyw2rP/view?usp=sharing"
+          href="https://drive.google.com/file/d/11H13JCjwUCwuSnzXEEWEz6e55P8oQsX0/view?usp=drive_link"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-600 hover:text-green-600 transition-colors"
