@@ -1,0 +1,107 @@
+<h1>why my start up failed</h1>
+
+<p>
+    for those who don't know me, I tried to create my own company in the summer
+    of 2024. <a href="https://tryodu.com/" target="_blank">odu</a> was a
+    platform to automate medical billing for physicians in ontario with a
+    <a
+        href="https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/"
+        target="_blank"
+        >rag</a
+    >
+    system.
+    <br />
+    funny story, I got this idea from my grandma's family doctor, call him john.
+    john and I were having small chats at my grandma's appointment, at the time,
+    gpt came out just a couple months ago. he asked questions about me,
+    naturally I
+    <br />
+    would ask back. john talked about a lot of admin stuff he needs to do and it
+    wasted a lot of his time, and jokingly said I should make one of those ai
+    things for him to do these tasks, and he'd pay me some money.
+    <br />
+    <br />
+    the way doctors in ontario gets paid is very weird, this is the case for
+    some other provinces and states as well. doctors would generally diagnose
+    the patient with something, and perform some sort of procedure if needed.
+    let's call diagnosis x and procedure y.
+    <br />
+    doctors gets paid through the
+    <a
+        href="https://en.wikipedia.org/wiki/Ontario_Health_Insurance_Plan"
+        target="_blank"
+        >government</a
+    >
+    , and to get paid, the government wants doctors to tell them the diagnosis
+    and procedures for their patients. but the government don't want those in
+    words, they want it in codes. so perhaps a patient has flu,
+    <br />
+    their code could be something like 923. without submitting these codes,
+    doctors don't get paid. problem is, the definitions for these codes are so
+    long and they have different codes for different diciplines, e.g) radiology,
+    family doctor.
+    <a
+        href="https://www.ontario.ca/files/2025-03/moh-schedule-benefit-2024-03-04.pdf"
+        target="_blank"
+        >here</a
+    >
+    <br />
+    is a ~1000 page document that outlines all of the codes with their
+    corresponding diagnosis and procedure codes. it's clear how this becomes a
+    pain in the arse. most solutions out there were
+    <a href="https://www.dr-bill.ca/">companies</a> hiring billing specialists
+    that charge a small percentage
+    <br />
+    of the doctor's appointment in exchange for finding out the codes and
+    submitting it to the government for them. this is actually a lot of money
+    when accumulated over time. so I wanted to build a cheaper and more reliable
+    alternative
+    <br />
+    <br />
+    I finished the mvp pretty quickly; and I sent emails to doctors at local
+    clinics and even walked in to some of them to find decision makers to talk
+    to. luckily for me, my first ever cold email got my first ever user. when I
+    looked at the supabase dashboard,
+    <br />
+    seeing a new signup made me feel so happy. I kept working on my product, and
+    every week or so I would check in to see what features my user really cares
+    about. then it came: doctors want a platform where they can send the codes
+    directly to the
+    <br />
+    government(the default government platform is super ass and hard to
+    navigate). after doing some researching, I need to make sure my software
+    passes some sort of conformance testing, which makes sense because the data
+    needs to be secure.
+    <br />
+    there's some guy on github that actually wrote a
+    <a href="https://github.com/mykiBoy/OHIP-MCEDT-SOAP-Example" target="_blank"
+        >code</a
+    >
+    that can pass this, so I was going just use that and host it on some vps. at
+    the time I thought to myself, holy shit I'm gonna create a profitable
+    company. little did I know, when applying for the conformance testing,
+    <br />
+    there is a point on the
+    <a
+        href="https://forms.mgcs.gov.on.ca/dataset/81dd4dfb-831e-493f-9e7b-f16b3c2337ab/resource/900e304d-17c7-4981-9a2c-e9c42206d348/download/4860-84e.pdf"
+        target="_blank"
+        >form
+    </a>
+    that says everytime you make a change to your software, you need to REAPPLY
+    for conformance testing AGAIN. for a clueless guy that was following every
+    yc advice, this was killing me. one of the startup "rules" was that
+    <br />
+    you need to move fast. with this policy in place, I would not be able to do
+    any of that. and a lot of my joy comes from me shipping/improving features.
+    I thought to myself for a while, and decided to wrap things up. I was
+    already at a bad place doing business
+    <br />
+    in a domain that I wasn't familiar with, and with the policy I can't see
+    myself keep going.
+    <br />
+    <br />
+    on a side note, I had talks with vcs and startup accelertors (not those
+    super beefy ones you'd hear about on hackernews), and they were interested
+    in what I was building. though it didn't matter anymore, I wrapped this shit
+    up.
+</p>
